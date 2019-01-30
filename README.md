@@ -21,6 +21,7 @@ escaped properly.
 
 # Limitations and bugs
 
+* The script treats directories as files. They should be ignored.
 * The script only works on files in the current directory.
 * You can't limit the files that are listed with a glob pattern.
 * Special shell characters (other than spaces) aren't escaped properly.
